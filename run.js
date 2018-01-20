@@ -16,6 +16,6 @@ const config = {
   }
 };
 
-const musicBot = new MusicBot(config);
+const musicBot = new Discord.Client();
 
 musicBot.run();
