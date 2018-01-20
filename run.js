@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const musicBot = new Discord.Client();
+const musicBot = new Discord(config);
 
 const config = {
   // these 3 are always required.
