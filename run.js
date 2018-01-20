@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const musicBot = new Discord(config);
+
 
 const config = {
   // these 3 are always required.
@@ -15,7 +15,7 @@ const config = {
     },
   }
 };
-
+const musicBot = new Discord(config);
 
 
 musicBot.login('NDA0Mjc1MDc2NjI0NTQ3ODYw.DUTijg.8AO_TUt7roJrktpkVZHocSH2WCU');
