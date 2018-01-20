@@ -1,4 +1,4 @@
-const MusicBot = require('discord-musicbot');
+const MusicBot = require('discord.js');
 
 
 const config = {
