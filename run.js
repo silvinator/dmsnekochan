@@ -18,4 +18,4 @@ const config = {
 
 
 
-musicBot.run();
+MusicBot.login(token);
