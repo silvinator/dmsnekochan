@@ -1,5 +1,5 @@
 const MusicBot = require('discord.js');
-const MusicBot = new Discord.Client();
+const musicBot = new Discord.Client();
 
 const config = {
   // these 3 are always required.
@@ -18,4 +18,4 @@ const config = {
 
 
 
-MusicBot.login(token);
+musicBot.login(token);
